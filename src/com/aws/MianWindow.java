@@ -621,7 +621,7 @@ public class MianWindow extends ApplicationWindow {
 		try {
 			domainslist = hsdbdao.getDomainsList(); 
 		} catch (Exception e) {  //when exception
-			log.showLog(load + "An error occoured when " + load.toLowerCase() + " domains");
+			log.showLog("An error occoured when " + load.toLowerCase() + " domains");
 			log.showLog(e.getMessage());
 		}
 		listViewerDomains.add(domainslist.toArray());  //add domains list into viewer
