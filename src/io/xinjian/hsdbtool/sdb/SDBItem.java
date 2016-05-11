@@ -4,7 +4,7 @@
  * And turn class 'Item' into 'SDBItem'
  */
 
-package com.aws.sdb;
+package io.xinjian.hsdbtool.sdb;
 
 import java.util.ArrayList;
 import java.util.HashMap;

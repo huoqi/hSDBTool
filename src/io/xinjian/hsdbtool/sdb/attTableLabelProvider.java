@@ -2,7 +2,7 @@
  * Provider cell label
  */
 
-package com.aws.sdb;
+package io.xinjian.hsdbtool.sdb;
 
 import org.eclipse.jface.viewers.ILabelProviderListener;
 import org.eclipse.jface.viewers.ITableLabelProvider;

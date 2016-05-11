@@ -1,4 +1,4 @@
-package com.aws;
+package io.xinjian.hsdbtool;
 
 import java.awt.Toolkit;
 import java.util.ArrayList;
@@ -20,8 +20,9 @@ import org.eclipse.jface.action.IMenuListener;
 import org.eclipse.jface.action.IMenuManager;
 
 import com.amazonaws.services.simpledb.model.Item;
-import com.aws.dialog.*;
-import com.aws.sdb.*;
+
+import io.xinjian.hsdbtool.dialog.*;
+import io.xinjian.hsdbtool.sdb.*;
 
 import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Label;

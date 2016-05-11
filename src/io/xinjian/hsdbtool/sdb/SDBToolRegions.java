@@ -2,7 +2,7 @@
  * Provider Region name with city
  */
 
-package com.aws.sdb;
+package io.xinjian.hsdbtool.sdb;
 
 import com.amazonaws.regions.Region;
 import com.amazonaws.regions.Regions;

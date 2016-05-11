@@ -1,4 +1,4 @@
-package com.aws.dialog;
+package io.xinjian.hsdbtool.dialog;
 
 import org.eclipse.jface.action.Action;
 

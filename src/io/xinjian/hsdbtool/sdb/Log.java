@@ -2,7 +2,7 @@
  * To show log information with timestamp in txtLog
  */
 
-package com.aws.sdb;
+package io.xinjian.hsdbtool.sdb;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.aws.dialog;
+package io.xinjian.hsdbtool.dialog;
 
 import org.eclipse.jface.dialogs.Dialog;
 import org.eclipse.jface.dialogs.IDialogConstants;

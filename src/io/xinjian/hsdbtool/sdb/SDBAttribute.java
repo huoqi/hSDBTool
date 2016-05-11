@@ -3,7 +3,7 @@
  * Use List<Sting> values instead of Sting value;
  */
 
-package com.aws.sdb;
+package io.xinjian.hsdbtool.sdb;
 
 import java.util.ArrayList;
 import java.util.Comparator;

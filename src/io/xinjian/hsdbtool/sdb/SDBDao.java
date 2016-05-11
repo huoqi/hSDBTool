@@ -2,7 +2,7 @@
  * class for operating AWS SimpleDB
  */
 
-package com.aws.sdb;
+package io.xinjian.hsdbtool.sdb;
 
 import java.util.ArrayList;
 import java.util.List;

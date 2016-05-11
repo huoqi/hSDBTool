@@ -2,7 +2,7 @@
  * Get input objects and distribute them into three columns
  */
 
-package com.aws.sdb;
+package io.xinjian.hsdbtool.sdb;
 
 import java.util.List;
 
@@ -21,7 +21,7 @@ public class attTreeContentProvider implements ITreeContentProvider {
 	}
 	
 	/*
-	 * inputElement: List<SDItem>¡¢List<SDAttribute>¡¢List<String>. These are all List object
+	 * inputElement: List<SDItem>ï¿½ï¿½List<SDAttribute>ï¿½ï¿½List<String>. These are all List object
 	 * @see org.eclipse.jface.viewers.ITreeContentProvider#getElements(java.lang.Object)
 	 */
 	@Override

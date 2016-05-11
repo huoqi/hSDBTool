@@ -7,9 +7,9 @@
 	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.jface_3.11.1.v20160128-1644.jar"/>
 	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.swt_3.104.2.v20160212-1350.jar"/>
 	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.104.2.v20160212-1350.jar"/>
-	<classpathentry kind="lib" path="forms-1.3.0.jar"/>
 	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.equinox.common_3.7.0.v20150402-1709.jar"/>
 	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.ui.forms_3.6.200.v20150506-2029.jar"/>
 	<classpathentry kind="lib" path="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.core.commands_3.7.0.v20150422-0725.jar"/>
+	<classpathentry kind="lib" path="lib/forms-1.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
