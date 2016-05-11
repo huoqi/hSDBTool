@@ -5,7 +5,7 @@ Java Tool for AWS SimpleDB use WindowBuilder
 
 Thanks to SimpleDB Firefox Plugin (https://github.com/floodfx/sdbtool)
 
-Several weeks ago I want to learn about AWS SimpleDB, but it don't have any UI. 
+Several weeks ago I want to learn about AWS SimpleDB, but it doesn't have any UI. 
 
 Then I found that plugin, but it has not updated for several years. It just has four or five regions.
 
