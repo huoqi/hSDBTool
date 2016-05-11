@@ -39,7 +39,7 @@ public class SDBDao {
 	private void connection() {
 		credentials = null;
 		try{
-			credentials = new ProfileCredentialsProvider("admin").getCredentials();
+			credentials = new ProfileCredentialsProvider("global").getCredentials();
 		} catch (Exception e){
 			
 		}

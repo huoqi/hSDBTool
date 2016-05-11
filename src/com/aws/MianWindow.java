@@ -1,6 +1,7 @@
 package com.aws;
 
 import java.awt.Toolkit;
+import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 import org.eclipse.jface.action.MenuManager;
@@ -138,7 +139,7 @@ public class MianWindow extends ApplicationWindow {
 				loadDomains("Load");
 			}
 		});
-		listRegions.select(3);  //default to us-west-2
+		listRegions.select(2);  //default to us-west-2
 		
 		Group grpDomain = new Group(compositeWest, SWT.NONE);
 		fd_grpRegion.bottom = new FormAttachment(grpDomain, -6);
@@ -624,7 +625,11 @@ public class MianWindow extends ApplicationWindow {
 			log.showLog("An error occoured when " + load.toLowerCase() + " domains");
 			log.showLog(e.getMessage());
 		}
-		listViewerDomains.add(domainslist.toArray());  //add domains list into viewer
+		
+//		Object[] domains = new Object[0];
+//		if (domainslist.toArray() != null) {
+			listViewerDomains.add(domainslist.toArray());  //add domains list into viewer
+//		}
 		
 		String[] sDomainlist = new String[domainslist.size()];  //add domains list into comboDoamin
 		int i = 0;
@@ -635,7 +640,7 @@ public class MianWindow extends ApplicationWindow {
 			comboDomain.setItems(sDomainlist);
 			comboDomain.select(0);
 		}
-		log.showLog( "There is/are " + sDomainlist.length + " doamin(s) in region [" + regionName + "]");
+		log.showLog( sDomainlist.length + " doamin(s) in region [" + regionName + "]");
 	}
 	
 	private void setRegion(){
