@@ -6,6 +6,7 @@ public class AboutAction extends Action {
 	public AboutAction(){
 		super("About hSDBTool", AS_PUSH_BUTTON);
 	}
+
 	public void run() {
 		AboutJDialog aboutDialog = new AboutJDialog();
 		aboutDialog.setVisible(true);
